@@ -12,7 +12,10 @@ done
 for f in "a.cpp" "b.cpp" "c.cpp" "d.cpp" "e.cpp" "f.cpp"
 do
     echo -e \
-"#include <iostream>
+"#include <bits/stdc++.h>
+#include <boost/multiprecision/cpp_int.hpp>
+using bint = boost::multiprecision::cpp_int;
+
 int main()
 {
     int N;
